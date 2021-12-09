@@ -2415,7 +2415,53 @@ body.is-touch .main {
 	.main>.content {
 		max-width: calc(100% - 1.5em);
 	}
+	#primeira > .content.style2{
+		display: none;
+	}
+	.hiddener{
+		display: block !important;
+	}
+	.hiddener .first-row {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	.hiddener .tembici_img_1 {
+		width: unset;
+		margin-left: 0;
+		margin-top: 0;
+		overflow: hidden;
+	}
+	.hiddener .tembici_img_1 img {
+		width: 90%;
+		height: auto;
+	}
+	.hiddener .esquerda_img {
+		width: 90%;
+		margin: -18% 20px 0 0;
+	}
+	.hiddener .teste {
+		height: 20px;
+		position: relative !important;
+		margin: 0 0 5% -2%;
+	}
+	.hiddener .tembici_bike {
+		margin-top: 0;
+	}
+	#primeira {
+		padding: 0px 20px;
+	}
+	.hiddener .texto {
+		position: relative;
+	}
+	.hiddener .bike_video {
+		width: 60%!important;
+	}
+	
 
+}
+
+.hiddener{
+	display: none;
 }
 
 /* Footer */
@@ -3058,8 +3104,8 @@ body.is-touch .main {
 .tembice_logo{
 	width:50%;
 }
-.tembici_bike{
-	margin-top: 20%
+.tembici_bike {
+    margin-top: 35%;
 }
 #direita-one{
 	left: 170px;
@@ -3144,7 +3190,7 @@ body.is-touch .main {
 	.texto {
 		position: absolute;
 		left: 0%;
-		top: 120%;
+		top: 70%;
 		width: 100%;
 		z-index: 24;
 	}
