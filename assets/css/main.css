@@ -2429,11 +2429,11 @@ body.is-touch .main {
 }
 
 .arrows path {
-	stroke: #2994D1;
-	fill: transparent;
-	stroke-width: 1px;
-	animation: arrow 2s infinite;
-	-webkit-animation: arrow 2s infinite;
+    stroke: #ffffff;
+    fill: transparent;
+    stroke-width: 6px;
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite;
 }
 
 @keyframes arrow {
@@ -3152,6 +3152,7 @@ body.is-touch .main {
 		font-weight: 500;
 		font-size: 12px;
 		text-align: justify;
+		padding: 0 10%;
 	}
 	.teste {
 		flex-direction: row;
@@ -3165,6 +3166,17 @@ body.is-touch .main {
 		border-top-right-radius: 45px;
 		border-bottom-right-radius: 45px;
 		text-align: center;
+	}
+	.teste:after {
+		content: '';
+		display: inline-block;
+		height: 20px;
+		top: 0;
+		right: -30px;
+		position: absolute;
+		width: 20px;
+		border-radius: 50%;
+		background-color: #79e76d;
 	}
 	.teste p {
 		font-size: 13px;
@@ -3180,7 +3192,7 @@ body.is-touch .main {
 		margin-left: 0;
 		padding: 29px 0%;
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
 		align-items: center;
 		
 		flex-wrap: nowrap;
@@ -3293,9 +3305,8 @@ body.is-touch .main {
 		width: 70%;
 		
 	}
-	.bike_video{
-
-		width: 40%!important;
+	.bike_video {
+		width: 60%!important;
 	}
 	.img_titulo{
 		display: none;
