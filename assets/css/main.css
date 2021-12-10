@@ -2415,10 +2415,13 @@ body.is-touch .main {
 	.main>.content {
 		max-width: calc(100% - 1.5em);
 	}
-	#primeira > .content.style2{
+	#primeira > .content.style2, 
+	#primeira > .desk {
 		display: none;
 	}
-	.hiddener{
+	.hiddener,
+	.hiddener2,
+	.mob {
 		display: block !important;
 	}
 	.hiddener .first-row {
@@ -2486,11 +2489,193 @@ body.is-touch .main {
 		transform: translateX(-50%);
 		bottom: 20px;
 	}
+	#six > .content.style2{
+		display: none;
+	}
+	
+	#six{
+		padding: 4em 35px 4em 35px;
+	}
+	#six .hiddener2{
+		max-width: 100%;
+	}
+	.hiddener2 .row1 {
+		display: flex;
+	}
+	.hiddener2 .row1 p {
+		font-size: 25px;
+		font-weight: 600;
+		line-height: 35px;
+		text-align: left;
+		margin-bottom: 0px;
+	}
+	.hiddener2 .row1 figure {
+		width: 35%;
+	}
+	.hiddener2 .row1 figure img {
+		width: 100%;
+		height: auto;
+		margin: 0;
+	}
+	.hiddener2 .row2 p {
+		text-align: justify;
+		font-size: 14px;
+		line-height: 17px;
+		font-weight: 500;
+	}
+	.hiddener2 .row3 .cel3 {
+		background: #ffffff;
+		padding: 40px 15px 30px;
+	}
+	.hiddener2 .row3 {
+		max-width: 100%;
+		display: flex;
+		margin-bottom: 20px;
+	}
+	.hiddener2 .row3 .cel3 {
+		background: #ffffff;
+		padding: 35px 15px 30px;
+		width: 75%;
+	}
+	.hiddener2 .row3 .button a img {
+		width: 100%;
+	}
+	.hiddener2 .row3 .button a:nth-child(2) img {
+		width: 115%;
+		margin-left: -3px
+	}
+	.hiddener2 .row3 .button {
+		background-color: transparent;
+		display: flex;
+		flex-direction: column;
+		width: 25%;
+		padding: 40px 0 0 30px;
+	}
+	.hiddener2 .row3 .button a {
+		height: auto;
+		line-height: initial;
+		padding: 0 0 5px;
+		margin: 0;
+	}
+	.hiddener2 .row3 .cel3 > div > img {
+		width: 100%;
+	}
+	.hiddener2 .row3 .cel3 .cel_top img {
+		width: 30%;
+	}
+	.hiddener2 .row3 .cel3 .cel_top > div > p:first-child {
+		margin: 0;
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 20px;
+	}
+	.hiddener2 .row3 .cel3 .cel_top > div > p {
+		margin: 0;
+		font-size: 10px;
+		font-weight: 700;
+		text-align: left;
+		line-height: 15px;
+	}
+	.hiddener2 .row3 .cel3 .cel_top {
+		padding: 0 0 7px;
+		height: fit-content;
+	}
+	.hiddener2 .row3 .cel3 .cel2 img {
+		width: 24%;
+	}
+	.hiddener2 .row3 .cel3 .cel2 p {
+		font-size: 8px;
+		text-align: left;
+		line-height: 10px;
+		color: #f90083;
+		margin: 0 0 0 5px;
+	}
+	.hiddener2 .row3 .cel3 .cel2 {
+		padding: 30px 7px;
+	}
+	.hiddener2 .cel5 {
+		padding: 0 !important;
+		background: unset !important;
+		height: fit-content !important;
+	}
+	.hiddener2 .cel5 .cel_div img {
+		width: 30%;
+		margin-right: 8px;
+	}
+	.hiddener2 .cel5 .cel_div {
+		height: 100%;
+		align-items: center;
+		justify-content: center;
+		padding: 30px 0;
+	}
+	.hiddener2 .cel5 .cel_div:first-child {
+		background-color: #79e76d;
+	}
+	.hiddener2 .cel5 .cel_div:nth-child(2) {
+		background-color: #4b917d;
+		width: 40%;
+		padding: 35px 0;
+	}
+	.hiddener2 .cel5 .cel_div p,
+	.hiddener2 .cel4 div p {
+		margin: 0;
+		font-size: 8px;
+		line-height: 10px;
+		text-align: left;
+	}
+	.hiddener2 .cel5 .cel_div p:nth-child(2),
+	.hiddener2 .cel4 div p:nth-child(2) {
+		margin: 0;
+		font-size: 12px;
+		line-height: 20px;
+		text-align: left;	
+	}
+	.hiddener2 .cel4 {
+		justify-content: space-evenly;
+		height: 95px;
+	}
+	.hiddener2 .cel_div4 {
+		display: flex;
+		font-size: 0.7rem;
+		float: left;
+		flex-wrap: nowrap;
+		align-items: center;
+		width: 42%;
+		justify-content: space-between;
+	}
+	.hiddener2 .cel_div4 p{
+		color: #4b917d;
+		min-width: 76px;
+	}
+	.hiddener2 .cel_div4 img {
+		width: 30%;
+	}
+	.hiddener2 .row4 p {
+		font-size: 13px;
+		text-align: left;
+		font-weight: 400;
+		margin-bottom: 20px;
+	}
+	.hiddener2 .cupom {
+		width: 90%;
+		padding: 0 20px;
+		margin-bottom: 20px;
+	}
+	.hiddener2 .row4 .cupom p {
+		font-size: 32px;
+		margin: 0;
+	}
+	.hiddener2 .row4 p.adver {
+		font-size: 10px;
+		margin-bottom: 10px;
+	}
 	
 
 }
 
-.hiddener{
+.hiddener,
+.mob,
+.hiddener2{
 	display: none;
 }
 
